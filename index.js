@@ -74,7 +74,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    obj[eventPrefix + "Action"] = action,
 	    obj[eventPrefix + "Label"] = label,
 	    obj[eventPrefix + "Value"] = value,
-	    obj[eventPrefix + "nonInteraction"] = false,
+	    obj[eventPrefix + "NonInteraction"] = false,
 	    obj
 	  );
 	};
@@ -102,7 +102,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      value = null;
 	    }
 	    config = createInteractionEvent.apply(null, arguments);
-	    config[eventPrefix + "nonInteraction"] = true;
+	    config[eventPrefix + "NonInteraction"] = true;
 	    return push(config);
 	  }
 	};

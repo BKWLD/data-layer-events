@@ -13,7 +13,7 @@ createInteractionEvent = (category, action, label, value) ->
 	"#{eventPrefix}Action": action
 	"#{eventPrefix}Label": label
 	"#{eventPrefix}Value": value
-	"#{eventPrefix}nonInteraction": false
+	"#{eventPrefix}NonInteraction": false
 
 # Push an event onto the dataLayer
 push = (config) -> window.dataLayer.push config
@@ -28,5 +28,5 @@ module.exports =
 	# Same as event,
 	nonInteractionEvent: (category, action, label = null, value = null) ->
 		config = createInteractionEvent.apply null, arguments
-		config["#{eventPrefix}nonInteraction"] = true
+		config["#{eventPrefix}NonInteraction"] = true
 		push config

@@ -22,7 +22,7 @@ Then create a Trigger for `genericEvent`.  Like this:
 
 Finally create Tag that combines all of these.  Like this:
 
-![Tag configuration example](http://yo.bkwld.com/0A3123240C1r/Image%202016-08-19%20at%204.32.04%20PM.png)
+![Tag configuration example](http://yo.bkwld.com/0d370M0Z3U2j/Image%202016-08-19%20at%204.39.59%20PM.png)
 
 
 ## Usage
