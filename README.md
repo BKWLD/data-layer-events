@@ -6,11 +6,11 @@ This package pushes [Google Analytics type events](https://developers.google.com
 
 Setup Google Tag Manager Variables for:
 
-  - `genericCategory`
-	- `genericAction`
-	- `genericLabel`
-	- `genericValue`
-	- `genericNonInteraction`
+- `genericCategory`
+- `genericAction`
+- `genericLabel`
+- `genericValue`
+- `genericNonInteraction`
 
 For example:
 
