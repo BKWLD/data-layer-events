@@ -14,15 +14,17 @@ Setup Google Tag Manager Variables for:
 
 For example:
 
-![Variable configuration example](http://yo.bkwld.com/201D0Z0i1d0a/Image%202016-08-19%20at%204.29.50%20PM.png)
+![Variable configuration for category](https://user-images.githubusercontent.com/2195815/31870598-76725210-b7fa-11e7-999d-e1e48a12c5f6.png)
+
+![Variable configuration for action](https://user-images.githubusercontent.com/2195815/31870578-5aca8244-b7fa-11e7-86d2-29d011643295.png)
 
 Then create a Trigger for `genericEvent`.  Like this:
 
-![Trigger configuration example](http://yo.bkwld.com/1S3X2h3Z0a3e/Image%202016-08-19%20at%204.30.53%20PM.png)
+![Trigger configuration example](https://user-images.githubusercontent.com/2195815/31870614-8fb5b0e6-b7fa-11e7-83ea-1968ffc7328c.png)
 
 Finally create Tag that combines all of these.  Like this:
 
-![Tag configuration example](http://yo.bkwld.com/0d370M0Z3U2j/Image%202016-08-19%20at%204.39.59%20PM.png)
+![Tag configuration example](https://user-images.githubusercontent.com/2195815/31870519-2c0fd5e4-b7fa-11e7-8531-0fcd726c5532.png)
 
 
 ## Usage
@@ -36,3 +38,7 @@ dataLayer.event('Category', 'Action', 'Label', 'Value');
 // Fire a non-interaction event
 dataLayer.nonInteractionEvent('Category', 'Action', 'Label', 'Value');
 ```
+
+A React Component example:
+
+![A React Component example](https://user-images.githubusercontent.com/2195815/31870518-2bbde11c-b7fa-11e7-9d88-f5f19d961e92.png)
